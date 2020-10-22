@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="whiteboxbi" duration-ms="399136" started-at="2020-10-09T04:45:20Z" finished-at="2020-10-09T04:51:59Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@6279cee3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="End to End Scenario" duration-ms="399136" started-at="2020-10-09T04:45:20Z" finished-at="2020-10-09T04:51:59Z">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@6279cee3]" name="setUpClass" is-config="true" duration-ms="958" started-at="2020-10-09T04:45:20Z" finished-at="2020-10-09T04:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@6279cee3]" name="runScenario" duration-ms="397855" started-at="2020-10-09T04:45:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-09T04:51:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["White Box Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[White Box Testing Of Brandintelle Application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@6279cee3]" name="tearDownClass" is-config="true" duration-ms="287" started-at="2020-10-09T04:51:59Z" finished-at="2020-10-09T04:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- End to End Scenario -->
+  </suite> <!-- whiteboxbi -->
+</testng-results>

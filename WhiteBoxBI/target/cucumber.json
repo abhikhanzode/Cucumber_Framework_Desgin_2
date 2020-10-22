@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-09T04:45:21.604Z",
+        "line": 2,
+        "name": "White Box Testing",
+        "description": "",
+        "id": "white-box-testing-of-brandintelle-application;white-box-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8675000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "launch the browser and application",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.launch_the_browser_and_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5311000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login with valid username: \"Sanyuktaa\" and Password: \"Tt@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sanyuktaa",
+                  "offset": 28
+                },
+                {
+                  "val": "Tt@123456",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinationPkg.StepDefination.login_with_valid_username_something_and_password_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4088000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on login button and user will be on dashboard",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.click_on_login_button_and_user_will_be_on_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7482000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to BTL JOB module",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.go_to_btl_job_module()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72020000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check app opeing and download supporting documents and Job_bill report",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.check_app_opeing_and_download_supporting_documents_and_jobbill_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13438000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Go to BTL Bill module",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.go_to_btl_bill_module()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40943000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Check app opening and Download supporting documents",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.check_app_opening_and_download_supporting_documents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10620000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Go to Marketing Purchase Order module",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.go_to_marketing_purchase_order_module()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55368000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Check app opening and donwload supporting documents and download PO report",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.check_app_opening_and_donwload_supporting_documents_and_download_po_report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13499000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Go to ATL Estimate",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.go_to_atl_estimate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33573000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Check app opening, creatives and download supporting documents",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.check_app_opening_creatives_and_download_supporting_documents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13506000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Go to ATL FMS",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.go_to_atl_fms()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70018000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Check FMS View, creatives and download supporting documents",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.check_fms_view_creatives_and_download_supporting_documents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10505000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Go to Creatives",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.go_to_creatives()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38442000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Check create and add new creative details",
+            "match": {
+              "location": "StepDefinationPkg.StepDefination.check_create_and_add_new_creative_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "White Box Testing Of Brandintelle Application",
+    "description": "",
+    "id": "white-box-testing-of-brandintelle-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/Scenario.feature",
+    "tags": []
+  }
+]
